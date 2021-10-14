@@ -8,7 +8,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
- * Author 余涛
  * Description 功能说明
  * Time 2019/10/20 20:27
  */

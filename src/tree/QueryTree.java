@@ -3,7 +3,6 @@ package tree;
 import java.util.Stack;
 
 /**
- * Author 余涛
  * Description 遍历二叉树操作
  * Time 2020/4/18 23:55
  */

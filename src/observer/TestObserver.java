@@ -1,7 +1,6 @@
 package observer;
 
 /**
- * Author 余涛
  * Description 功能说明
  * Time 2020/4/16 23:52
  */
