@@ -1,4 +1,6 @@
+import observer.Observer;
 import observer.Subject;
+import observer.TestObserver;
 import observer.TestSubject;
 import tree.QueryTree;
 import tree.TreeNode;
@@ -13,15 +15,15 @@ public class Main {
         Subject subject = new TestSubject();
 
 //        ExecutorService es = Executors.newFixedThreadPool(4);
-//        es.submit()
+//        es.submit();
 
-//        Observer observerA = new TestObserver("A：");
-//        Observer observerB = new TestObserver("B：");
-//        subject.attach(observerA);
-//        subject.attach(observerB);
-//        subject.notify("通知One");
-//        subject.detach(observerA);
-//        subject.notify("通知Two");
+        Observer observerA = new TestObserver("A：");
+        Observer observerB = new TestObserver("B：");
+        subject.attach(observerA);
+        subject.attach(observerB);
+        subject.notify("通知One");
+        subject.detach(observerA);
+        subject.notify("通知Two");
 //
 //        TreeNode[] node = TreeNode.init(10);
 //
